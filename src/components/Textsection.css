@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+.text-section-container {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    justify-content: space-between; /* Add space between the items */
+    padding-top:40px ; /* Remove padding */
+    gap: 20px; /* Add a small gap between the elements */
+}
+
+.text-section {
+    padding-left: 70px; /* Adjust padding for the section */
+    max-width: 600px; /* Set a maximum width for the section */
+    color: #333; /* General text color */
+    margin: 0; /* Remove margin */
+}
+
+.text-section h1 {
+    color: #333; /* Dark color for the main heading */
+    font-size: 60px; /* Adjusted font size for the main heading */
+    font-weight: 800; /* Bold font weight */
+    line-height: 1.2; /* Adjusted line height */
+    margin: 10px 0; /* Margin above and below the heading */
+}
+
+.text-section p {
+    color: #666; /* Light grey color for the paragraph */
+    font-size: 18px; /* Font size for the paragraph */
+    margin: 20px 0; /* Margin above and below the paragraph */
+}
+
+.buttons {
+    display: flex;
+    gap: 20px; /* Gap between buttons */
+}
+
+.get-started-btn, .watch-platform-btn {
+    padding: 15px 30px; /* Adjusted padding for buttons */
+    font-size: 16px; /* Font size for buttons */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.get-started-btn {
+    background-color: #00aaff; /* Light blue background */
+    color: #fff; /* White text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.get-started-btn:hover {
+    background-color: #0088cc; /* Darker blue on hover */
+}
+
+.watch-platform-btn {
+    background-color: #F3F8FF;
+    padding: 0%;
+    margin: 0%;
+    color: #00aaff; /* Light blue text color */
+}
+
+
+.text-section h2 {
+    width: 100%;
+    position: relative;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Seaweed Script', cursive;
+    color: #00acff;
+    text-align: left;
+    display: inline-block;
+}
+
+.text-section img {
+    max-width: 100%; /* Ensure images are responsive */
+}
+
+.mockup-img {
+    max-width: 100%; /* Ensure the mockup image is responsive */
+    margin: 0; /* Remove margin */
+}

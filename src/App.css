@@ -1,0 +1,17 @@
+/* App.css */
+.app {
+  display: flex;
+ background: #F3F8FF;
+  ;
+}
+
+.left-section {
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.main-content {
+  flex-grow: 1; /* Allow to grow and take remaining space */
+  padding: 20px; /* Example padding */
+}
+
+/* Other styles for your app */

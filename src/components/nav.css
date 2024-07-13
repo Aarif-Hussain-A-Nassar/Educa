@@ -1,0 +1,108 @@
+/* Ensure body and html have no margin or padding */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+
+  width: 100%; /* Ensure full width */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+/* Logo styles */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo span {
+  color: #2f80ed; /* Example color for "STUDYA." */
+}
+
+/* Navigation styles */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 1.5rem;
+}
+
+nav ul li a {
+  font-family: Poppins;
+  text-decoration: none;
+  color: #424d65;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+}
+
+/* Authentication links styles */
+.auth-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.auth-links a {
+  font-size: 1rem;
+  /* padding: 0.5rem 1rem; */
+  border-radius: 5px;
+}
+.log-in {
+ /* Set the text color */
+  text-decoration: underline; /* Add underline */
+  text-decoration-color: #04a8ff; /* Set the underline color */
+  width: 100%;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #424D65;
+  padding-top: 8px;
+  text-underline-offset: 6px;
+}
+
+.sign-in {
+  width: 100px;
+  position: relative;
+  border-radius: 8px;
+  background-color: #def4fe;
+  position: relative;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Poppins;
+  color: #04a8ff;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding-top: 8px;
+  text-decoration: none;
+  height: 40px;
+}
+
+
+.bt{
+  border: none;
+  color: #04a8ff;
+  background:none;
+
+}
+
+.partner{
+  margin-left: 20px;
+}

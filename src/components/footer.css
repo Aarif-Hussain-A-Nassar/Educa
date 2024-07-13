@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+body {
+  background-color: white;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.footer .text-primary {
+  color: #007bff;
+}
+
+.footer .form-control {
+  border-radius: 0;
+}
+
+.footer .btn-primary {
+  border-radius: 0;
+}
+
+.footer .text-muted {
+  color: #6c757d !important;
+}
+
+.text-muted {
+  color: #594d43;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.84px;
+}
+
+.footer h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer .logo img {
+  width: 100px;
+}
+
+.footer .input-group .form-control {
+  border-right: 0;
+}
+
+.footer .input-group .btn-primary {
+  border-left: 0;
+  padding: 0 12px;
+}
+
+.footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+.custom-padding {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.text-dark {
+  color: #3d475e;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.contact {
+  padding-top: 50px;
+}
+
+.email {
+  color: #2a2e36;
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.6px;
+}
+
+.list-unstyled {
+  padding-top: 20px;
+}
+
+.list-unstyled li {
+  padding-top: 10px;
+  cursor: pointer;
+}
+
+.input-group {
+  border-radius: 2px;
+}
+
+.custom-search {
+  position: relative;
+  width: 100%;
+}
+
+.custom-search-input {
+  width: calc(100% - 45px);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px 10px;
+  line-height: 1;
+  box-sizing: border-box;
+  outline: none;
+  color: #6c757d;
+  background-color: #e0edff;
+}
+
+.custom-search-button {
+  position: absolute;
+  right: 3px;
+  top: 3px;
+  bottom: 3px;
+  border: 0;
+  background: #45bfff;
+  color: #e0edff;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 4px;
+  z-index: 2;
+  width: 37px;
+  height: 37px;
+}
+
+.custom-search-label {
+  background-color: #e0edff;
+  padding: 5px;
+  border-radius: 4px;
+  display: inline-block; /* Ensures the label's width fits the text */
+}
+

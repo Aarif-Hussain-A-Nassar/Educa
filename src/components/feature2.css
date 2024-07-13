@@ -1,0 +1,64 @@
+/* Features.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url(https://db.onlinewebfonts.com/c/5cae74f63bd48d24d5abdddb3af09a50?family=Airbnb+Cereal+App+Black);
+.body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 691px;
+  padding-top: 100px;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
+
+.rows {
+  height: 800px;
+}
+.headings {
+  color: #2a2e36;
+  text-align: center;
+  font-family: "Airbnb Cereal App";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 90px; /* 105.882% */
+  letter-spacing: -0.85px;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.left {
+  margin-left: 100px;
+  margin-top: 85px;
+}
+
+p {
+  color: #525d73;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: -0.14px;
+}
+
+h1 {
+  color: #292e37;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 123.81% */
+}
